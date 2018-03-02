@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>El principito</title>
+	<link rel="stylesheet" href="css/index.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro" rel="stylesheet">
+</head>
+<body>
+	<nav>
+		<h2>El Principito</h2>
+		<ul>
+			<li>Acerca</li>
+			<li>Catalogo</li>
+			<li>Contactanos</li>
+		</ul>
+	</nav>
+	<section id="principal">
+		<div class="slider">
+			<div class="info slides">
+				<div class="logo"></div>
+				<div class="data">
+					<p>
+						Nos dedicamos al rubro de impresiones digitales y plotteos al mejor precio del mercado.
+					</p>
+					<p>
+						Ofrecemos una amplia variedad en insumos de impresion y computación, libreria artistica, comercial y escolar.
+					</p>
+					
+				</div>
+
+			</div>
+			<div class="info slides column second apagado">
+
+				<div class="data">
+					<p>
+						Ofrecemos una amplia variedad en insumos de impresion y computación, libreria artistica, comercial y escolar.
+					</p>
+				</div>
+				<div class="galeria">
+					<img src="./img/product1.jpg" width="50%" height="50%" alt="">
+					<img src="./img/product2.jpg" width="50%" height="50%" alt="">
+					<img src="./img/product3.jpg" width="50%" height="50%" alt="">
+					<img src="./img/product4.jpg" width="50%" height="50%" alt="">
+				</div>
+			</div>
+			<div  class="info slides column third apagado">
+
+				<div class="data">
+					<p>
+						Estamos ubicados en <br> Armenia 2442, <br>  Frente al Jardin Botanico
+					</p>
+
+					<a href="#Contacto">Contactanos</a>
+				</div>
+			</div>
+			<i id="left" class="left material-icons">keyboard_arrow_right</i>
+			<i id="right"class="right material-icons">keyboard_arrow_left</i>		
+		</div>
+	</section>
+	<section id="descripcion">
+		<div class="descripcion">
+			<h1>Nos dedicamos a</h1>
+			<p>Nos dedicamos al rubro de impresiones digitales y plotteos al mejor precio del mercado.</p>
+			<p>Ofrecemos una amplia variedad en insumos de impresion y computación, libreria artistica, comercial y escolar.</p>
+		</div>
+		<div class="imagen">
+		</div>
+	</section>
+	<section id="servicios" class="catalogo">
+		<div class="barra">
+			<h3>Servicios</h3>
+
+		</div>
+		<div class="contenedor">
+			<div class="carta">
+				<div class="imagen"></div>
+				<p class="titulo">Impresiones digitales</p>
+			</div>
+			<div class="carta">
+				<div class="imagen"></div>
+				<p class="titulo">Plotteos</p>
+			</div>
+			<div class="carta">
+				<div class="imagen"></div>
+				<p class="titulo">Fotocopias</p>
+			</div>
+		</div>
+	</section>
+	<section id="servicios" class="catalogo">
+		<div class="barra">
+			<h3>Catalogo
+
+			</h3>
+			<div class="buscador">
+				<input type="text" placeholder="Busca el producto que desees">
+				<i class="material-icons">search</i>	
+			</div>
+		</div>
+		<div class="contenedor">
+			<div class="carta">
+				<div class="imagen"></div>
+				<p class="titulo">Impresiones digitales</p>
+			</div>
+			<div class="carta">
+				<div class="imagen"></div>
+				<p class="titulo">Plotteos</p>
+			</div>
+			<div class="carta">
+				<div class="imagen"></div>
+				<p class="titulo">Fotocopias</p>
+			</div>
+			<div class="carta">
+				<div class="imagen"></div>
+				<p class="titulo">Impresiones digitales</p>
+			</div>
+			<div class="carta">
+				<div class="imagen"></div>
+				<p class="titulo">Plotteos</p>
+			</div>
+			<div class="carta">
+				<div class="imagen"></div>
+				<p class="titulo">Fotocopias</p>
+			</div>
+
+		</div>
+	</section>
+	<section id="contacto">
+		<h2>
+			<i class="material-icons envelope">mail</i>
+			Contactanos
+		</h2>
+		<form action="">
+			<div class="fila">
+				<div class="campo">
+					<label for="Nombre">Nombre</label>
+					<input type="text" name="Nombre" placeholder="Nombre">
+				</div>
+				<div class="campo">
+					<label for="Asunto">Asunto</label>
+					<input type="text" name="Asunto" placeholder="Asunto">
+				</div>
+			</div>
+			<div class="fila">
+				<div class="campo">
+					<label for="text">Telefono</label>
+					<input type="text" name="Telefono" placeholder="Telefono">
+				</div>
+				<div class="campo">
+					<label for="Email">Email</label>
+					<input type="email" name="email" placeholder="email">
+				</div>
+			</div>
+			<div class="fila">
+				<div class="campo">
+					<label for="Mensaje">Mensaje</label>
+					<textarea type="text" class="mensaje" name="mensaje" placeholder="mensaje"></textarea>
+				</div>
+				<div class="campo">
+					<label for="Archivo">Archivos</label>
+					<input type="file" id="archivo" name="archivos" placeholder="archivos">
+				</div>
+			</div>
+				<input type="submit" value="Enviar" class="enviar">
+		</form>
+	</section>
+	<footer>
+		<i class="fa fa-facebook"></i>
+	</footer>
+	<script>
+		var slides = document.getElementsByClassName('slides')	
+		var indice = 0
+
+		let left = document.getElementById('left')
+
+		left.addEventListener('click',(e) => {
+			console.log('izquierda')
+			derecha()
+		});
+
+		let right = document.getElementById('right')
+		right.addEventListener('click',(e) => {
+			console.log('derecha')
+			izquierda()
+		});
+
+		function derecha () {
+			console.log(indice)
+			if(indice==2){
+				slides[indice].classList.add('apagado')
+				indice=0
+			} else {
+				slides[indice].classList.add('apagado')
+				indice++
+			}
+			slides[indice].classList.remove('apagado')
+		}
+		function izquierda () {
+			console.log(indice)
+			if(indice==0){
+				slides[indice].classList.add('apagado')
+				indice=2
+			} else {
+				slides[indice].classList.add('apagado')
+				indice--
+			}
+			slides[indice].classList.remove('apagado')
+		}
+	</script>
+</body>
+</html>

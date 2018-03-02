@@ -1,0 +1,51 @@
+@keyframes slidy {
+0% { left: 0vw; }
+20% { left: 0vw; }
+25% { left: -100vw; }
+45% { left: -100vw; }
+50% { left: -200vw; }
+70% { left: -200vw; }
+75% { left: -300vw; }
+95% { left: -300vw; }
+100% { left: -400vw; }
+}
+
+body { margin: 0; } 
+div.slider { overflow: hidden; }
+div.slider figure .row-alderaan { width: 20%; float: left; }
+div.slider figure { 
+  position: relative;
+  width: 500vw;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 10s slidy infinite;
+}
+
+@keyframes slidy2 {
+0% { left: 0vw; }
+25% { left: 0vw; }
+33.33% { left: -100vw; }
+58.33% { left: -100vw; }
+66.66% { left: -200vw; }
+91.66% { left: -200vw; }
+100% { left: -300vw; }
+}
+
+@keyframes slidy3 {
+0% { left: 0vw; }
+33.33% { left: 0vw; }
+49.99% { left: -100vw; }
+66.65% { left: -100vw; }
+100% { left: -200vw; }
+}
+
+
+div#slider2 figure { 
+  animation: 10s slidy2 infinite;
+}
+
+div#slider3 figure { 
+  animation: 10s slidy3 infinite;
+}
