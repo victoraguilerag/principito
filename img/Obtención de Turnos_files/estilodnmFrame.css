@@ -1,0 +1,511 @@
+BODY {
+	BACKGROUND-COLOR: #ffffff; 
+	margin: 0;
+	scrollbar-face-color: #808182;
+	scrollbar-arrow-color: #EFEFEF;
+	scrollbar-highlight-color: #ffffff;
+	scrollbar-3dlight-color: #ffffff;
+	scrollbar-shadow-color: #ffffff;
+	scrollbar-darkshadow-color: #ffffff;
+	scrollbar-track-color: #ffffff;
+}
+
+A:link {
+	color: #333333; TEXT-DECORATION: none;
+	
+}
+A:visited {
+	color: #333333; TEXT-DECORATION: none; 
+}
+A:hover {
+	COLOR: #DFAF2C; TEXT-DECORATION: none; 
+}
+
+.textoPlanoDNI {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #333333;
+}
+
+.subtituloDNI {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #333333;
+}
+
+.temasDNI {
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: normal;
+	color: #333333;
+}
+
+.titulosnaranjaDNI {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #DFAF2C;
+}
+
+.textoPlano {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #333333;
+	vertical-align: middle;
+	padding-left: 10px;
+	padding-right: 7px;
+
+}
+
+.textoPlano2 {
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: normal;
+	color: #333333;
+}
+
+.textoPlano2-1 {
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: normal;
+	color: #333333;
+}
+
+.textoPlano2-2 {
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: normal;
+	color: #929191;
+}
+
+.textoPlanop {
+	font-family: Arial;
+	font-size: 10px;
+	font-weight: normal;
+	color: #333333;
+	vertical-align: middle;
+	padding-left: 10px;
+
+}
+
+.textoPlanoHorariosatencion {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #DFAF2C;
+	vertical-align: middle;
+	padding-left: 7px;
+	padding-right: 7px;
+
+}
+
+.textoPlano-preg-frec {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #666666;
+	vertical-align: middle;
+	padding-left: 10px;
+	padding-right: 7px;
+
+}
+
+.textoPlano-linksdeinteres {
+	font-family: Arial;
+	font-size: 10px;
+	font-weight: normal;
+	color: #333333;
+	vertical-align: middle;
+	padding-left: 10px;
+	padding-right: 7px;
+
+}
+
+
+.textoPlano2 {
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	color: #666666;
+	vertical-align: middle;
+	padding-left: 10px;
+	padding-right: 7px;
+
+}
+
+
+.tablaborSI{
+	font-size: 12px;
+	font-family: Arial;
+	color: #333333;
+	line-height: 20px;
+	background-color: #ffffff;
+
+}
+.form {
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: normal;
+	color: #333333;
+	vertical-align: middle;
+	padding-right: 2px;
+	background-color: #FFFFFF;
+	text-align: left;
+	border: 1px solid #666666;
+
+}
+
+.form10 {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #333333;
+	vertical-align: middle;
+	padding-right: 2px;
+	text-align: left;
+	border: 1px solid #666666;
+
+
+}
+.tablaSup {
+	background-color: #ffffff;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #FF9900;
+
+}
+.textoTitulo11 {
+
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	color: #13516A;
+	vertical-align: middle;
+	padding-left: 10px;
+	padding-right: 7px;
+}
+
+.textoTitulonaranjach {
+
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #DFAF2C;
+	vertical-align: middle;
+	padding-left: 7px;
+	padding-right: 7px;
+}
+
+.textoTitulo11Celste {
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	color: #13516A;
+	vertical-align: middle;
+	padding-left: 10px;
+	padding-right: 7px;
+	background-color: #e1e1e1;
+
+}
+.textoLinkdelegacion {
+	font-family: Arial;
+	font-size: 10px;
+	font-weight: normal;
+	color: #333333;
+	vertical-align: middle;
+	padding-left: 10px;
+	padding-right: 7px;
+	line-height: 20px;
+
+}
+.tituloMapa {
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	color: #333333;
+	vertical-align: middle;
+	padding-left: 10px;
+	padding-right: 7px;
+	background-color: #DDE8EE;
+	border: 1px solid #CCCCCC;
+
+
+}
+.textoMapa {
+	font-family: Arial;
+	font-size: 10px;
+	font-weight: bold;
+	color: #333333;
+	vertical-align: middle;
+	padding-left: 10px;
+	padding-right: 7px;
+	background-color: #EAF1F4;
+	border: 1px solid #CCCCCC;
+
+}
+.bienvenidos {
+
+	font-size: 12px;
+	font-family: Arial;
+	color: #000000;
+	line-height: 20px;
+}
+.titadm {
+
+	font-family: Arial;
+	font-size: 10px;
+	color: #333333;
+	vertical-align: middle;
+	text-align: center;
+	font-weight: bold;
+}
+.lineaAbajo {
+	vertical-align: middle;
+	padding-left: 10px;
+	padding-right: 7px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #999999;
+
+}
+.titPrincipal {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	vertical-align: middle;
+	background-image:url(../images/flecha.gif);
+	background-repeat: no-repeat;
+	padding-left: 48px;
+	background-position: 15px;
+	
+}
+.textoArg {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #333333;
+	vertical-align: middle;
+	padding-left: 10px;
+	padding-right: 7px;
+	left: 20px;
+
+}
+.textoPlanonomargen {
+
+	font-family: Arial;
+	font-size: 10px;
+	font-weight: normal;
+	color: #333333;
+	vertical-align: middle;
+	padding-left: 10px;
+}
+.textoPlanosup {
+
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #333333;
+	vertical-align: top;
+	padding-left: 10px;
+	padding-right: 7px;
+}
+.textoPlanoCopia {
+
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: normal;
+	color: #333333;
+	vertical-align: top;
+	padding-left: 10px;
+	padding-right: 7px;
+}
+.linSuppunt {
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #CCCCCC;
+
+
+}
+.textoTitulo11sinmargen {
+
+
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: bold;
+	color: #DFAF2C;
+	vertical-align: left;
+}
+
+.textoTitulo11sinmargen-espacio {
+
+
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: bold;
+	color: #DFAF2C;
+	vertical-align: left;
+	padding-left: 8px;
+}
+
+.textoSubtitulo {
+
+
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #DFAF2C;
+	vertical-align: left;
+
+}
+
+.textoSubtitulo2 {
+
+
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #DFAF2C;
+	padding-left:10px;
+
+}
+
+.textoCUERPO {
+
+
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #333333;
+	vertical-align: left;
+}
+
+.textoCUERPOmuseo {
+
+
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #333333;
+	vertical-align: left;
+	padding-left: 10px;
+}
+
+.textoTitulo14 {
+	font-family: Arial;
+	font-size: 13px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-image: url(../images/zolapa.gif);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	padding-top: 10px;
+	padding-left: 15px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #4384CC;
+}
+.textoBanderas {
+	font-family: Arial;
+	font-size: 10px;
+	font-weight: bold;
+	color: #333333;
+	vertical-align: middle;
+	padding-left: 4px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #4384CC;
+}
+.textTurnosform {
+	font-family: Arial;
+	font-size: 10px;
+	font-weight: bold;
+	color: #13516A;
+	vertical-align: middle;
+	padding-left: 23px;
+	background-image: url(../images/vineta_turnos.gif);
+	background-repeat: no-repeat;
+	background-position: 5px;
+
+}
+
+.textoTitulo11sinmargenEsp {
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	color: #13516A;
+	vertical-align: middle;
+	line-height: 20px;
+
+}
+.textoPlano12 {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #333333;
+	vertical-align: middle;
+	padding-left: 10px;
+	padding-right: 7px;
+
+}
+.textoArial {
+
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: normal;
+	color: #757575;
+	vertical-align: bottom;
+	padding-left: 10px;
+	padding-right: 0px;
+}
+.formGris {
+
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: normal;
+	color: #333333;
+	vertical-align: middle;
+	padding-right: 2px;
+	background-color: #EFF0F1;
+	text-align: left;
+	border: 1px solid #707070;
+}
+.textoPlanoIzq {
+
+	font-family: Arial;
+	font-size: 10px;
+	font-weight: normal;
+	color: #333333;
+	vertical-align: middle;
+	padding-left: 1px;
+	padding-right: 0px;
+}
+.fondoBusc {
+	background-image:url(../images/fondo_bot_new.gif);
+	background-repeat:  no-repeat;
+}
+.textDelegaciones {
+	font-family: Arial;
+	font-size: 10px;
+	font-weight: bold;
+	color: #728DA4;
+	vertical-align: middle;
+	padding-left: 23px;
+	background-image: url(../images/vineta_turnos.gif);
+	background-repeat: no-repeat;
+	background-position: 5px;
+
+}
+.textoPlanoBottom {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #333333;
+	vertical-align: bottom;
+	padding-left: 10px;
+	padding-right: 7px;
+
+}

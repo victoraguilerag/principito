@@ -85,15 +85,21 @@ section {
     visibility: visible;
     transition: 1s all ease-in-out;
 }
+.brand {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
 .logo {
-    background: url(../img/logo.jpg);
+    /*background: url(../img/logo.jpg);*/
     background-size: contain;
     border-radius: 50%;
     display: flex;
     flex-flow: row nowrap;
-    height: 300px;
-    width: 300px;
-    border: medium solid red;
+    height: 400px;
+    width: 400px;
+    /*border: medium solid red;*/
 }
 .data {
 	height: 80%;
@@ -239,6 +245,7 @@ section {
     width: 98%;
     padding-left: 2%;
 }
+
 .catalogo h3 {
     font-size: 2em;
     font-family: 'Source Sans Pro', sans-serif;
@@ -311,6 +318,8 @@ section {
     background: #fff;
     position: relative;
     z-index: 1;
+
+
 }
 form .campo {
     width: 40%;
