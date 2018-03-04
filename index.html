@@ -237,6 +237,22 @@
 			}
 			slides[indice].classList.remove('apagado')
 		}
+
+		// Menu Desplegable
+
+		let ham = document.getElementById('ham')
+		let modal = document.getElementById('modal')
+		let cerrar = document.getElementById('cerrar')
+
+		ham.addEventListener('click',(e) => {
+		  modal.style.display = "flex";
+		});
+
+		cerrar.addEventListener('click', (e) => {
+		  modal.style.display = "none";
+		});
+
+
 	</script>
 </body>
 </html>
