@@ -504,6 +504,24 @@ footer h3 {
         padding-bottom: 50px;
         background: white;
     }
+    #descripcion {
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .descripcion {
+        width: 80%;
+        margin-left: 0;
+        border-left: 0;
+        border-top: medium solid firebrick;
+        padding: 0 10%;
+    }
+    #descripcion .imagen {
+        border-radius: 0% !important;
+        width: 90% !important;
+        height: 60vh !important;
+        margin-bottom: 5%;
+    }
     .enviar {
         margin-top: 10px;
         margin-left: 0;
@@ -549,8 +567,6 @@ footer h3 {
     }
     .descripcion {
         font-size: 19px;
-        width: 45vw;
-        margin-left: 1%;
         display: flex;
         flex-flow: column nowrap;
         justify-content: center;
