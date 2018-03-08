@@ -21,7 +21,9 @@ nav {
 }
 #ham {
     display: none;
+    align-self: flex-end;
     height: 100%;
+    width: 100px;
     justify-content: center;
     align-items: center;
     font-size: 2em;
@@ -463,8 +465,8 @@ footer h3 {
 }
 #modal .brand .logo-nav {
     position: absolute;
-    top: 1.5%;
-    right: 5px;
+    top: 15px;
+    right: 15px;
     margin: 0;
 }
 #modal ul {
