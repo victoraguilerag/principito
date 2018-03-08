@@ -83,15 +83,15 @@
 		</div>
 		<div class="contenedor">
 			<div class="carta">
-				<div class="imagen"></div>
+				<div id="impresion" class="imagen"></div>
 				<p class="titulo">Impresiones digitales</p>
 			</div>
 			<div class="carta">
-				<div class="imagen"></div>
+				<div id="plano" class="imagen"></div>
 				<p class="titulo">Plotteos</p>
 			</div>
 			<div class="carta">
-				<div class="imagen"></div>
+				<div id="copias" class="imagen"></div>
 				<p class="titulo">Fotocopias</p>
 			</div>
 		</div>
@@ -254,11 +254,13 @@
 		let cerrar = document.getElementById('cerrar')
 
 		ham.addEventListener('click',(e) => {
-		  modal.style.display = "flex";
+		  modal.classList.add('modalon')
+		  // modal.style.display = "flex";
+		  // modal.style.left = "0%";
 		});
 
 		cerrar.addEventListener('click', (e) => {
-		  modal.style.display = "none";
+		  modal.classList.remove('modalon')
 		});
 
 
