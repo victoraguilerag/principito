@@ -18,9 +18,18 @@
 		</div>
 		<i id="ham" class="material-icons">menu</i>
 		<ul id="menu">
-			<li>Acerca</li>
-			<li>Catalogo</li>
-			<li>Contactanos</li>
+			<a href="#descripcion">
+				<li>Acerca</li>					
+			</a>
+			<a href="#servicios">
+				<li>Servicios</li>					
+			</a>
+			<a href="#catalogo">
+				<li>Catalogo</li>		
+			</a>
+			<a href="#contacto">
+				<li>Contactanos</li>
+			</a>
 		</ul>
 	</nav>
 	<section id="principal">
@@ -60,11 +69,11 @@
 						Estamos ubicados en <br> Armenia 2442, <br>  Frente al Jardin Botanico
 					</p>
 
-					<a href="#Contacto">Contactanos</a>
+					<a href="#contacto">Contactanos</a>
 				</div>
 			</div>
 			<i id="left" class="left material-icons">keyboard_arrow_right</i>
-			<i id="right"class="right material-icons">keyboard_arrow_left</i>		
+			<i id="right" class="right material-icons">keyboard_arrow_left</i>		
 		</div>
 	</section>
 	<section id="descripcion">
@@ -96,7 +105,7 @@
 			</div>
 		</div>
 	</section>
-	<section id="servicios" class="catalogo">
+	<section id="catalogo" class="catalogo">
 		<div class="barra">
 			<h3>Catalogo
 
@@ -187,14 +196,17 @@
 			<h3>Libreria El Principito</h3>
 			<img src="./img/loguito.png" class="logo-nav" height="40px" width="40px" alt="">
 		</div>
-		<ul>
-			<a href="">
+		<ul id="opciones">
+			<a href="#descripcion">
 				<li>Acerca</li>
 			</a>
-			<a href="">
+			<a href="#servicios">
+				<li>Servicios</li>
+			</a>
+			<a href="#catalogo">
 				<li>Catalogo</li>
 			</a>
-			<a href="">
+			<a href="#contacto">
 				<li>Contactanos</li>
 			</a>
 		</ul>
@@ -252,6 +264,7 @@
 		let ham = document.getElementById('ham')
 		let modal = document.getElementById('modal')
 		let cerrar = document.getElementById('cerrar')
+		let opciones = document.getElementById('opciones')
 
 		ham.addEventListener('click',(e) => {
 		  modal.classList.add('modalon')
@@ -262,6 +275,11 @@
 		cerrar.addEventListener('click', (e) => {
 		  modal.classList.remove('modalon')
 		});
+
+		opciones.addEventListener('click',(e) => {
+		  modal.classList.remove('modalon')
+		});
+
 
 
 	</script>
