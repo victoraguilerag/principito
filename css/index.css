@@ -91,6 +91,7 @@ section {
     background: url(../img/inside.jpg);
     visibility: visible;
     transition: 1s all ease-in-out;
+    box-shadow: 2px 2px 10px rgba(50,50,50,1)
 }
 .info {
 	position: relative;
@@ -191,9 +192,13 @@ section {
     margin: 0;
     padding: 0;
     width: 4%;
+    box-shadow: 2px 2px 10px rgba(50,50,50,1),inset 0 0 10px rgba(50,50,50,.5);
+}
+.slider i {
+    box-shadow: 2px 2px 10px rgba(50,50,50,1);
 }
 .left {
-    border-radius: 0 50% 50% 0;
+    border-radius: 0 50% 50% 0; 
 }
 .right {
     border-radius: 50% 0 0 50%;
