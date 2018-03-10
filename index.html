@@ -72,8 +72,8 @@
 					<a href="#contacto">Contactanos</a>
 				</div>
 			</div>
-			<i id="left" class="left material-icons">keyboard_arrow_right</i>
-			<i id="right" class="right material-icons">keyboard_arrow_left</i>		
+			<i id="left" class="left material-icons noselect">keyboard_arrow_right</i>
+			<i id="right" class="right material-icons noselect">keyboard_arrow_left</i>		
 		</div>
 	</section>
 	<section id="descripcion">
@@ -218,12 +218,17 @@
 			<i class="fa fa-facebook"></i>
 		</div>
 	</section>
+	<div id="ir-arriba"><i class="material-icons noselect">arrow_upward</i></div>
+	<script
+	  src="https://code.jquery.com/jquery-3.3.1.min.js"
+	  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	  crossorigin="anonymous"></script>
 	<script>
 		var slides = document.getElementsByClassName('slides')	
 		var indice = 0
 
 		let left = document.getElementById('left')
-
+		left.focus()
 		left.addEventListener('click',(e) => {
 			console.log('izquierda')
 			derecha()
@@ -284,6 +289,20 @@
 		  modal.classList.remove('modalon')
 		});
 
+		// Scroll Top
+
+		$(document).ready(function(){
+		 	
+			$('#ir-arriba').click(function(){
+				$('body, html').animate({
+					scrollTop: '0px'
+				}, 300);
+			});
+		});
+
+		document.addEventListener('scroll',(e) => {
+		  console.log('scroll')
+		});
 
 
 	</script>
